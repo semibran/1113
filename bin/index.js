@@ -1,7 +1,8 @@
 const funcs = {
 	anytodec: require("../lib/any-to-dec"),
 	dectoany: require("../lib/dec-to-any"),
-	anytoany: require("../lib/any-to-any")
+	anytoany: require("../lib/any-to-any"),
+	sm: require("../lib/sm")
 }
 
 let input = process.argv.slice(2)
