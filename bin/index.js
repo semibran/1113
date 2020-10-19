@@ -12,6 +12,7 @@ const funcs = {
 	"bcit": require("../lib/bcit"),
 	"bcit-dec": require("../lib/bcit-dec"),
 	"bcit-std": require("../lib/bcit-std"),
+	"bcit-add": require("../lib/bcit-add"),
 }
 
 let input = process.argv.slice(2)
