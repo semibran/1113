@@ -9,6 +9,7 @@ const funcs = {
 	"xs": require("../lib/bin-xs"),
 	"bias": require("../lib/bin-bias"),
 	"add2c": require("../lib/bin-add2c"),
+	"bcit": require("../lib/dec-to-bcit"),
 }
 
 let input = process.argv.slice(2)
