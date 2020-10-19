@@ -2,7 +2,8 @@ const funcs = {
 	anytodec: require("../lib/any-to-dec"),
 	dectoany: require("../lib/dec-to-any"),
 	anytoany: require("../lib/any-to-any"),
-	sm: require("../lib/sm")
+	signmag: require("../lib/bin-signmag"),
+	"2c": require("../lib/bin-2c"),
 }
 
 let input = process.argv.slice(2)
