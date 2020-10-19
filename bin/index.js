@@ -1,16 +1,15 @@
 const funcs = {
-	"any-to-dec": require("../lib/any-to-dec"),
-	"dec-to-any": require("../lib/float-from-dec"),
-	"any-to-any": require("../lib/float-from-any"),
-	"2c-to-dec": require("../lib/2c-to-dec"),
-	"bias-to-dec": require("../lib/bias-to-dec"),
-	"signmag": require("../lib/signmag-from-dec"),
-	"1c": require("../lib/1c-from-dec"),
-	"2c": require("../lib/2c-from-dec"),
-	"xs": require("../lib/xc-from-dec"),
-	"bias": require("../lib/bias-from-dec"),
-	"add2c": require("../lib/2c-add"),
-	"bcit": require("../lib/bcit-from-dec"),
+	"dec": require("../lib/dec"),
+	"float": require("../lib/float"),
+	"signmag": require("../lib/signmag"),
+	"1c": require("../lib/1c"),
+	"2c": require("../lib/2c"),
+	"2c-add": require("../lib/2c-add"),
+	"2c-dec": require("../lib/2c-dec"),
+	"xs": require("../lib/xs"),
+	"bias": require("../lib/bias"),
+	"bias-dec": require("../lib/bias-dec"),
+	"bcit": require("../lib/bcit"),
 }
 
 let input = process.argv.slice(2)
