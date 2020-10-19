@@ -3,6 +3,7 @@ const funcs = {
 	dectoany: require("../lib/dec-to-any"),
 	anytoany: require("../lib/any-to-any"),
 	signmag: require("../lib/bin-signmag"),
+	"1c": require("../lib/bin-1c"),
 	"2c": require("../lib/bin-2c"),
 }
 
