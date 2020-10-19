@@ -2,7 +2,7 @@ const funcs = {
 	"any-to-dec": require("../lib/any-to-dec"),
 	"dec-to-any": require("../lib/dec-to-any"),
 	"any-to-any": require("../lib/any-to-any"),
-	"dec-to-2c": require("../lib/dec-to-2c"),
+	"2c-to-dec": require("../lib/2c-to-dec"),
 	"signmag": require("../lib/bin-signmag"),
 	"1c": require("../lib/bin-1c"),
 	"2c": require("../lib/bin-2c"),
@@ -20,5 +20,5 @@ if (!convert) {
 }
 
 let args = input.slice(1)
-let output = convert(...args.map(eval))
+let output = convert(...args)
 console.log(output)
