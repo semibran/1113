@@ -1,15 +1,8 @@
 const funcs = {
-	anytodec: require("../lib/anytodec"),
-	dectoany: require("../lib/dectoany"),
-	anytoany: require("../lib/anytoany")
+	anytodec: require("../lib/any-to-dec"),
+	dectoany: require("../lib/dec-to-any"),
+	anytoany: require("../lib/any-to-any")
 }
-
-// number : {
-// 	base : int
-// 	int : str
-// 	frac : str
-// 	repeat : bool
-// }
 
 let input = process.argv.slice(2)
 let convert = funcs[input[0]]
