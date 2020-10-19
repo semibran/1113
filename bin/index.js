@@ -2,6 +2,7 @@ const funcs = {
 	"any-to-dec": require("../lib/any-to-dec"),
 	"dec-to-any": require("../lib/dec-to-any"),
 	"any-to-any": require("../lib/any-to-any"),
+	"dec-to-2c": require("../lib/dec-to-2c"),
 	"signmag": require("../lib/bin-signmag"),
 	"1c": require("../lib/bin-1c"),
 	"2c": require("../lib/bin-2c"),
