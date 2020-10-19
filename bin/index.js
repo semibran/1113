@@ -1,8 +1,7 @@
 const funcs = {
 	anytodec: require("../lib/anytodec"),
 	dectoany: require("../lib/dectoany"),
-	anytoany: require("../lib/anytoany"),
-	fractobin: require("../lib/fractobin")
+	anytoany: require("../lib/anytoany")
 }
 
 // number : {
