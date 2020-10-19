@@ -7,6 +7,7 @@ const funcs = {
 	"2c": require("../lib/bin-2c"),
 	"xs": require("../lib/bin-xs"),
 	"bias": require("../lib/bin-bias"),
+	"add2c": require("../lib/bin-add2c"),
 }
 
 let input = process.argv.slice(2)
@@ -18,5 +19,5 @@ if (!convert) {
 }
 
 let args = input.slice(1)
-let output = convert(...args)
+let output = convert(...args.map(eval))
 console.log(output)
